@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.update-section, .suggestion-section {
+    margin: 20px;
+}
+
+.update-section h2, .suggestion-section h2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.update-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.update-section ul li {
+    margin-bottom: 10px;
+}
+
+.suggestion-section a {
+    color: blue;
+    text-decoration: none;
+}
+
+.suggestion-section a:hover {
+    text-decoration: underline;
+}
